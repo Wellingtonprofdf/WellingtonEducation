@@ -1,0 +1,38 @@
+{
+  "title": "QUARTO",
+  "date": "22/09/26",
+  "description": {},
+  "license": {
+    "pt-BR": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
+  },
+  "meta_langs": [
+    "pt-BR"
+  ],
+  "mainFile": "IDENTI_WELLINGTONT1.jclic",
+  "cover": "project-cover.jpg",
+  "thumbnail": "project-thumb.jpg",
+  "activities": 1,
+  "mediaFiles": 14,
+  "totalSize": 877587,
+  "files": [
+    "IDENTI_WELLINGTONT1.jclic",
+    "IDENTI_WELLINGTONT1.jclic.js",
+    "acertou-resized.jpg",
+    "dragaozbrush-resized.jpg",
+    "favicon.ico",
+    "fundo-resized.jpg",
+    "gemini_generated_image_cffpf2cffpf2cffp-resized.jpg",
+    "gemini_generated_image_igzwrnigzwrnigzw-resized.jpg",
+    "gemini_generated_image_l0xqmel0xqmel0xq-resized.jpg",
+    "gemini_generated_image_lhc0ablhc0ablhc0-resized.jpg",
+    "gemini_generated_image_lhgatllhgatllhga-resized.jpg",
+    "gemini_generated_image_s7iu80s7iu80s7iu-resized.jpg",
+    "icon-192.png",
+    "icon-72.png",
+    "imsmanifest.xml",
+    "index.html",
+    "project-cover.jpg",
+    "project-thumb.jpg",
+    "project.json"
+  ]
+}
