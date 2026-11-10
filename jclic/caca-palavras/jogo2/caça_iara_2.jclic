@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="caça_iara_2" version="0.1.3">
+ <settings>
+  <title>1_poetasnegros</title>
+  <revision description="created" date="8/25/26" />
+  <descriptors />
+  <meta_langs>pt-BR</meta_langs>
+  <descriptions>
+   <description language="pt-BR" />
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="caça_iara" />
+ </sequence>
+ <activities>
+  <activity class="@textGrid.WordSearch" name="caça_iara" code="">
+   <description>
+    <p>CRUZESOUSA — SOLANOTRINDADE — CONCEICAOEVARISTO — LUIZGAMA</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="36" />
+      <color foreground="0xFFFFFF" background="0x3399FF" />
+     </style>
+     <p>Encontre 4 escritores negros brasileiros em 240 seg!</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0xFFFFFF" background="0x009933" />
+     </style>
+     <p>Parabéns!</p>
+    </cell>
+    <cell type="finalError">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0xFFFFFF" background="0xCC0033" />
+     </style>
+     <media type="RETURN" level="1" />
+     <p>Por favor, tente novamente!</p>
+    </cell>
+   </messages>
+   <settings margin="5" maxTime="240" countDownTime="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x63666600">
+     <counters time="true" actions="false" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <gradient source="0x999999" dest="0xFFFFFF" angle="0" />
+    </window>
+   </settings>
+   <textGrid rows="30" columns="30" cellWidth="30.0" cellHeight="30.0" border="true">
+    <style margin="3">
+     <font family="Arial" size="72" />
+     <color foreground="0x003366" background="0xFFFFFF" border="0xCCCCCC" />
+    </style>
+    <text>
+     <row>****S*************************</row>
+     <row>***CONCEICAOEVARISTO**********</row>
+     <row>****L*************************</row>
+     <row>****A*************************</row>
+     <row>****N*************************</row>
+     <row>****O*************************</row>
+     <row>****T*************************</row>
+     <row>****R*************************</row>
+     <row>**LUIZGAMA********************</row>
+     <row>****N*************************</row>
+     <row>****D*************************</row>
+     <row>****A*************************</row>
+     <row>****D*************************</row>
+     <row>CRUZESOUSA********************</row>
+     <row>******************************</row>
+     <row>******************************</row>
+     <row>******************************</row>
+     <row>******************************</row>
+     <row>******************************</row>
+     <row>******************************</row>
+     <row>******************************</row>
+     <row>******************************</row>
+     <row>******************************</row>
+     <row>******************************</row>
+     <row>******************************</row>
+     <row>******************************</row>
+     <row>******************************</row>
+     <row>******************************</row>
+     <row>******************************</row>
+     <row>******************************</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">CRUZESOUSA</clue>
+    <clue id="1">SOLANOTRINDADE</clue>
+    <clue id="2">LUIZGAMA</clue>
+    <clue id="3">CONCEICAOEVARISTO</clue>
+   </clues>
+  </activity>
+ </activities>
+ <mediaBag />
+</JClicProject>
+

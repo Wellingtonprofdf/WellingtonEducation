@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="quarto" version="0.1.3">
+ <settings>
+  <title>QUARTO</title>
+  <revision description="created" date="9/22/26" />
+  <descriptors />
+  <meta_langs>pt-BR</meta_langs>
+  <descriptions>
+   <description language="pt-BR" />
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="IDENTI_WELLINGTON" />
+ </sequence>
+ <activities>
+  <activity class="@panels.Identify" name="IDENTI_WELLINGTON" code="">
+   <description />
+   <messages>
+    <cell border="true" type="initial">
+     <style shadow="true" borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="48" bold="true" />
+      <color foreground="0xFFFFFF" background="0x009900" />
+     </style>
+     <p>ENCONTRE OS INTRUSOS EM ATÉ 90s OU 3 CHANCES</p>
+    </cell>
+    <cell type="final">
+     <style shadow="true">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0xFFFFFF" background="0x3366FF" />
+     </style>
+     <p>UHUUUUUULLLLLLL</p>
+    </cell>
+    <cell border="true" type="finalError">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFF0033" />
+     </style>
+     <p>TENTE NOVAMENTE</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxTime="90" countDownTime="true" maxActions="3" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0x66FF66">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x00CCCC" border="true" />
+    <skin file="@green.xml" />
+   </settings>
+   <cells rows="2" cols="3" cellWidth="221.0" cellHeight="206.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <ids>0 0 0 0 0 0</ids>
+   </cells>
+   <scramble times="31" primary="true" />
+  </activity>
+ </activities>
+ <mediaBag />
+</JClicProject>
+
