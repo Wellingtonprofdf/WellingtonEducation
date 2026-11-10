@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="IDENTI_WELLINGTON3" version="0.1.3">
+ <settings>
+  <title>quartoc</title>
+  <revision description="created" date="11/10/26" />
+  <descriptors />
+  <meta_langs>pt-BR</meta_langs>
+  <descriptions>
+   <description language="pt-BR" />
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="IDENTI_WELLINGTON3" />
+ </sequence>
+ <activities>
+  <activity class="@panels.Identify" name="IDENTI_WELLINGTON3" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="24" bold="true" />
+      <color foreground="0xFFFFFF" background="0xCC00CC" />
+     </style>
+     <p>SELECIONE IMAGENS QUE NÃO REPRESENTAM HARDWARE EM 90s</p>
+    </cell>
+    <cell border="true" type="final">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0xFFFFFF" background="0x00CC00" />
+     </style>
+     <p>VOCÊ CONSEGUIU UHUUUUU</p>
+    </cell>
+    <cell border="true" type="finalError">
+     <style>
+      <font family="Arial" size="48" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFF3300" />
+     </style>
+     <p>TENTE NOVAMENTE, VOCÊ CONSEGUE!</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxTime="90" countDownTime="true" maxActions="3" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0x6666FF">
+     <image name="Fundo Futurista-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+    <skin file="@green.xml" />
+   </settings>
+   <cells rows="2" cols="4" cellWidth="204.0" cellHeight="203.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="4" rows="2" />
+    <cell id="0" image="placamaenova-resized.jpg">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell id="1" image="editor-resized.jpg">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell id="0" image="processadornovo-resized.jpg">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell id="0" image="fontenova-resized.jpg">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell id="1" image="navegador-resized.jpg">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell id="0" image="memorianova-resized.jpg">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell id="1" image="aplicativos-resized.jpg">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell id="0" image="harddisck-resized.jpg">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <cells rows="2" cols="4" cellWidth="50.0" cellHeight="30.0" border="true" id="solvedPrimary">
+    <style />
+    <cell image="yente_novamente-resized.jpg" />
+    <cell image="Acertou-resized1.jpg">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="yente_novamente-resized.jpg" />
+    <cell image="yente_novamente-resized.jpg" />
+    <cell image="Acertou-resized1.jpg" />
+    <cell image="yente_novamente-resized.jpg" />
+    <cell image="Acertou-resized1.jpg" />
+    <cell image="yente_novamente-resized.jpg" />
+   </cells>
+   <scramble times="31" primary="true" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="Acertou-resized1.jpg" file="acertou-resized1.jpg" />
+  <media name="aplicativos-resized.jpg" file="aplicativos-resized.jpg" />
+  <media name="editor-resized.jpg" file="editor-resized.jpg" />
+  <media name="fontenova-resized.jpg" file="fontenova-resized.jpg" />
+  <media name="Fundo Futurista-resized.jpg" file="fundo_futurista-resized.jpg" />
+  <media name="harddisck-resized.jpg" file="harddisck-resized.jpg" />
+  <media name="memorianova-resized.jpg" file="memorianova-resized.jpg" />
+  <media name="navegador-resized.jpg" file="navegador-resized.jpg" />
+  <media name="placamaenova-resized.jpg" file="placamaenova-resized.jpg" />
+  <media name="processadornovo-resized.jpg" file="processadornovo-resized.jpg" />
+  <media name="yente_novamente-resized.jpg" file="yente_novamente-resized.jpg" />
+ </mediaBag>
+</JClicProject>
+

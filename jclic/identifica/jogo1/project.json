@@ -1,0 +1,42 @@
+{
+  "title": "quartoc",
+  "date": "10/11/26",
+  "description": {
+    "pt-BR": ""
+  },
+  "license": {
+    "pt-BR": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
+  },
+  "meta_langs": [
+    "pt-BR"
+  ],
+  "mainFile": "IDENTI_WELLINGTON3.jclic",
+  "cover": "project-cover.jpg",
+  "thumbnail": "project-thumb.jpg",
+  "activities": 1,
+  "mediaFiles": 16,
+  "totalSize": 678930,
+  "files": [
+    "IDENTI_WELLINGTON3.jclic",
+    "IDENTI_WELLINGTON3.jclic.js",
+    "acertou-resized1.jpg",
+    "aplicativos-resized.jpg",
+    "editor-resized.jpg",
+    "favicon.ico",
+    "fontenova-resized.jpg",
+    "fundo_futurista-resized.jpg",
+    "harddisck-resized.jpg",
+    "icon-192.png",
+    "icon-72.png",
+    "imsmanifest.xml",
+    "index.html",
+    "memorianova-resized.jpg",
+    "navegador-resized.jpg",
+    "placamaenova-resized.jpg",
+    "processadornovo-resized.jpg",
+    "project-cover.jpg",
+    "project-thumb.jpg",
+    "project.json",
+    "yente_novamente-resized.jpg"
+  ]
+}
