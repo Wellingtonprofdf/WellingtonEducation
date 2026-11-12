@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="SIMPLES_WELLINGTON" version="0.1.3">
+ <settings>
+  <title>simples</title>
+  <revision description="created" date="11/10/26" />
+  <descriptors />
+  <meta_langs>pt-BR</meta_langs>
+  <descriptions>
+   <description language="pt-BR" />
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="SIMPLES_WELLINGTON" />
+ </sequence>
+ <activities>
+  <activity class="@associations.SimpleAssociation" name="SIMPLES_WELLINGTON" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="28" />
+      <color background="0xFFFF00" />
+     </style>
+     <p>RELACIONE OS PERSOANGENS ÀS SUAS RAÇAS EM 90s ou 5 CHANCES</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="48" bold="true" />
+      <color foreground="0xFFFFFF" background="0x009933" />
+     </style>
+     <p>UHUUUUUUU</p>
+    </cell>
+    <cell avoidOverlapping="true" type="finalError">
+     <style>
+      <font family="Arial" size="36" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFF3333" />
+     </style>
+     <p>NÃO DESISTA, TENTE NOVAMENTE!!!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" maxTime="90" countDownTime="true" maxActions="6" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0xFFCC33">
+     <image name="fundo1-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x99CCFF" transparent="true" border="true" />
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="1" cols="5" cellWidth="222.0" cellHeight="225.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="5" rows="1" />
+    <cell image="elfo-resized.jpg">
+     <style transparent="true" borderStroke="0.7" markerStroke="5.0" />
+    </cell>
+    <cell image="Aarakroka-resized.jpg">
+     <style transparent="true" borderStroke="0.7" markerStroke="5.0" />
+    </cell>
+    <cell image="Bullyug-resized.jpg">
+     <style transparent="true" borderStroke="0.7" markerStroke="5.0" />
+    </cell>
+    <cell image="Anão-resized.jpg">
+     <style transparent="true" borderStroke="0.7" markerStroke="5.0" />
+    </cell>
+    <cell image="orc-resized.jpg">
+     <style transparent="true" borderStroke="0.7" markerStroke="5.0" />
+    </cell>
+   </cells>
+   <cells rows="1" cols="5" cellWidth="222.0" cellHeight="225.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="5" rows="1" />
+    <cell image="nomeelfo-resized1.jpg">
+     <style transparent="true" borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="28" />
+      <color background="0xFFFF00" />
+     </style>
+    </cell>
+    <cell image="nomeAarakroka-resized1.jpg">
+     <style transparent="true" borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="28" />
+      <color background="0xFFFF00" />
+     </style>
+    </cell>
+    <cell image="nomebullyug-resized1.jpg">
+     <style transparent="true" borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="28" />
+      <color background="0xFFFF00" />
+     </style>
+    </cell>
+    <cell image="nomeanão-resized1.jpg">
+     <style transparent="true" borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="28" />
+      <color background="0xFFFF00" />
+     </style>
+    </cell>
+    <cell image="nomeorc-resized1.jpg" />
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AUB" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="Aarakroka-resized.jpg" file="aarakroka-resized.jpg" />
+  <media name="Anão-resized.jpg" file="anao-resized.jpg" />
+  <media name="Bullyug-resized.jpg" file="bullyug-resized.jpg" />
+  <media name="elfo-resized.jpg" file="elfo-resized.jpg" />
+  <media name="fundo1-resized.jpg" file="fundo1-resized.jpg" />
+  <media name="nomeAarakroka-resized1.jpg" file="nomeaarakroka-resized1.jpg" />
+  <media name="nomeanão-resized1.jpg" file="nomeanao-resized1.jpg" />
+  <media name="nomebullyug-resized1.jpg" file="nomebullyug-resized1.jpg" />
+  <media name="nomeelfo-resized1.jpg" file="nomeelfo-resized1.jpg" />
+  <media name="nomeorc-resized1.jpg" file="nomeorc-resized1.jpg" />
+  <media name="orc-resized.jpg" file="orc-resized.jpg" />
+ </mediaBag>
+</JClicProject>
+

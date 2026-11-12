@@ -1,0 +1,40 @@
+{
+  "title": "simples",
+  "date": "10/11/26",
+  "description": {},
+  "license": {
+    "pt-BR": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
+  },
+  "meta_langs": [
+    "pt-BR"
+  ],
+  "mainFile": "SIMPLES_WELLINGTON.jclic",
+  "cover": "project-cover.jpg",
+  "thumbnail": "project-thumb.jpg",
+  "activities": 1,
+  "mediaFiles": 16,
+  "totalSize": 819055,
+  "files": [
+    "SIMPLES_WELLINGTON.jclic",
+    "SIMPLES_WELLINGTON.jclic.js",
+    "aarakroka-resized.jpg",
+    "anao-resized.jpg",
+    "bullyug-resized.jpg",
+    "elfo-resized.jpg",
+    "favicon.ico",
+    "fundo1-resized.jpg",
+    "icon-192.png",
+    "icon-72.png",
+    "imsmanifest.xml",
+    "index.html",
+    "nomeaarakroka-resized1.jpg",
+    "nomeanao-resized1.jpg",
+    "nomebullyug-resized1.jpg",
+    "nomeelfo-resized1.jpg",
+    "nomeorc-resized1.jpg",
+    "orc-resized.jpg",
+    "project-cover.jpg",
+    "project-thumb.jpg",
+    "project.json"
+  ]
+}
