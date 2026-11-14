@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria de Imagens 3D | Arte 3D</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config = { darkMode: 'class' }</script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../../../style.css">
+</head>
+<body class="bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-emerald-50 font-sans min-h-screen p-8">
+  <div class="max-w-5xl mx-auto space-y-6">
+    
+    <div class="flex items-center justify-between border-b border-slate-200 dark:border-emerald-800/60 pb-4">
+      <h1 class="text-xl font-bold text-slate-800 dark:text-white flex items-center gap-2">
+        <i class="fa-solid fa-image text-orange-400"></i> Galeria: Imagens 3D
+      </h1>
+      <a href="../../index.html" class="px-3 py-1.5 bg-slate-200 dark:bg-emerald-900 text-xs font-bold rounded-lg hover:border-orange-500 border transition">← Voltar para Arte 3D</a>
+    </div>
+
+    <!-- GRID DE IMAGENS -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      
+      <!-- Exemplo de Card de Imagem -->
+      <div class="bg-white dark:bg-emerald-950 border border-slate-200 dark:border-emerald-800/60 rounded-xl overflow-hidden shadow-sm">
+        <div class="h-48 bg-slate-200 dark:bg-emerald-900 flex items-center justify-center text-slate-400 dark:text-emerald-400">
+          <i class="fa-solid fa-image text-4xl"></i> <!-- Substituir por <img src="..." class="w-full h-full object-cover"> no futuro -->
+        </div>
+        <div class="p-4">
+          <h3 class="font-bold text-slate-800 dark:text-white text-sm mb-1">Escultura de Personagem - Dark Elf</h3>
+          <p class="text-xs text-slate-500 dark:text-emerald-300/70">Modelagem orgânica e detalhamento de armadura em ZBrush.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <script src="../../../script.js"></script>
+</body>
+</html>
