@@ -1,0 +1,31 @@
+{
+  "title": "troca",
+  "date": "14/11/26",
+  "description": {},
+  "license": {
+    "pt-BR": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
+  },
+  "meta_langs": [
+    "pt-BR"
+  ],
+  "mainFile": "TROCA_WELLINGTON.jclic",
+  "cover": "project-cover.jpg",
+  "thumbnail": "project-thumb.jpg",
+  "activities": 1,
+  "mediaFiles": 7,
+  "totalSize": 11443098,
+  "files": [
+    "TROCA_WELLINGTON.jclic",
+    "TROCA_WELLINGTON.jclic.js",
+    "favicon.ico",
+    "icon-192.png",
+    "icon-72.png",
+    "imsmanifest.xml",
+    "index.html",
+    "mago-resized.jpg",
+    "mapaelfico.png",
+    "project-cover.jpg",
+    "project-thumb.jpg",
+    "project.json"
+  ]
+}

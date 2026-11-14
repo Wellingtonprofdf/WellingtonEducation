@@ -1,0 +1,31 @@
+{
+  "title": "quebra",
+  "date": "14/11/26",
+  "description": {},
+  "license": {
+    "pt-BR": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
+  },
+  "meta_langs": [
+    "pt-BR"
+  ],
+  "mainFile": "QUEBRATROCA_WELLINGTON.jclic",
+  "cover": "project-cover.jpg",
+  "thumbnail": "project-thumb.jpg",
+  "activities": 1,
+  "mediaFiles": 7,
+  "totalSize": 10235539,
+  "files": [
+    "QUEBRATROCA_WELLINGTON.jclic",
+    "QUEBRATROCA_WELLINGTON.jclic.js",
+    "anao.png",
+    "favicon.ico",
+    "icon-192.png",
+    "icon-72.png",
+    "imsmanifest.xml",
+    "index.html",
+    "planodefundo-resized1.jpg",
+    "project-cover.jpg",
+    "project-thumb.jpg",
+    "project.json"
+  ]
+}
