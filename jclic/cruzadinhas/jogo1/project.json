@@ -1,0 +1,32 @@
+{
+  "title": "cruzadinha",
+  "date": "14/11/26",
+  "description": {
+    "pt-BR": ""
+  },
+  "license": {
+    "pt-BR": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
+  },
+  "meta_langs": [
+    "pt-BR"
+  ],
+  "mainFile": "cruzadinha.jclic",
+  "cover": "project-cover.jpg",
+  "thumbnail": "project-thumb.jpg",
+  "activities": 1,
+  "mediaFiles": 6,
+  "totalSize": 194862,
+  "files": [
+    "cruzadinha.jclic",
+    "cruzadinha.jclic.js",
+    "favicon.ico",
+    "galaxia-resized1.jpg",
+    "icon-192.png",
+    "icon-72.png",
+    "imsmanifest.xml",
+    "index.html",
+    "project-cover.jpg",
+    "project-thumb.jpg",
+    "project.json"
+  ]
+}
