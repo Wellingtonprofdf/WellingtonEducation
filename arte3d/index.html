@@ -7,8 +7,6 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <script>tailwind.config = { darkMode: 'class' }</script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  
-  <!-- CORREÇÃO: Como arte3d está na raiz, voltamos apenas 1 nível (../) -->
   <link rel="stylesheet" href="../style.css">
 </head>
 <body class="bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-emerald-50 font-sans min-h-screen p-8">
@@ -19,14 +17,18 @@
       <h1 class="text-xl font-bold text-slate-800 dark:text-white flex items-center gap-2">
         <i class="fa-solid fa-cube text-orange-400"></i> Categoria: Arte e Modelagem 3D
       </h1>
-      <!-- CORREÇÃO: O botão voltar aponta para a raiz (../index.html) -->
       <a href="../index.html" class="px-3 py-1.5 bg-slate-200 dark:bg-emerald-900 text-xs font-bold rounded-lg hover:border-orange-500 border transition">← Voltar ao Início</a>
     </div>
 
-    <!-- SUB-SEÇÃO: GALERIA 3D -->
+    <!-- DESCRIÇÃO DA CATEGORIA -->
+    <p class="text-xs text-slate-500 dark:text-emerald-300/70">
+      Explore os trabalhos de modelagem e escultura digital divididos entre portfólio visual e apresentações em vídeo.
+    </p>
+
+    <!-- SEÇÃO DE GALERIAS (DOIS CARDS: IMAGENS E VÍDEOS) -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
       
-      <!-- Galeria de Imagens -->
+      <!-- Card 1: Link para Imagens -->
       <a href="galeria/imagens/index.html" class="bg-white dark:bg-emerald-950 border border-slate-200 dark:border-emerald-800/60 rounded-2xl p-6 hover:border-orange-500 transition shadow-lg block group">
         <div class="w-12 h-12 rounded-xl bg-orange-500/10 border border-orange-500/30 flex items-center justify-center text-orange-400 text-2xl mb-4 group-hover:scale-110 transition">
           <i class="fa-solid fa-image"></i>
@@ -36,7 +38,7 @@
         <span class="text-xs font-bold text-orange-400 flex items-center gap-1">Acessar Imagens →</span>
       </a>
 
-      <!-- Galeria de Vídeos -->
+      <!-- Card 2: Link para Vídeos -->
       <a href="galeria/videos/index.html" class="bg-white dark:bg-emerald-950 border border-slate-200 dark:border-emerald-800/60 rounded-2xl p-6 hover:border-orange-500 transition shadow-lg block group">
         <div class="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 text-2xl mb-4 group-hover:scale-110 transition">
           <i class="fa-solid fa-video"></i>
@@ -47,9 +49,8 @@
       </a>
 
     </div>
+
   </div>
-  
-  <!-- CORREÇÃO: Script apontando para a raiz -->
   <script src="../script.js"></script>
 </body>
 </html>
