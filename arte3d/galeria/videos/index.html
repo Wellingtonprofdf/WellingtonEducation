@@ -12,6 +12,7 @@
 <body class="bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-emerald-50 font-sans min-h-screen p-8">
   <div class="max-w-5xl mx-auto space-y-6">
     
+    <!-- CABEÇALHO -->
     <div class="flex items-center justify-between border-b border-slate-200 dark:border-emerald-800/60 pb-4">
       <h1 class="text-xl font-bold text-slate-800 dark:text-white flex items-center gap-2">
         <i class="fa-solid fa-video text-orange-400"></i> Galeria: Vídeos 3D
@@ -19,15 +20,48 @@
       <a href="../../index.html" class="px-3 py-1.5 bg-slate-200 dark:bg-emerald-900 text-xs font-bold rounded-lg hover:border-orange-500 border transition">← Voltar para Arte 3D</a>
     </div>
 
-    <!-- GRID DE VÍDEOS (Usando a tag <video> ou incorporação do YouTube que vimos anteriormente) -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <!-- GRID DE VÍDEOS -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       
-      <!-- Exemplo de Vídeo incorporado -->
-      <div class="bg-white dark:bg-emerald-950 border border-slate-200 dark:border-emerald-800/60 rounded-xl p-4 shadow-sm space-y-3">
-        <h3 class="font-bold text-slate-800 dark:text-white text-sm">Apresentação 360° - Modelo Orgânico</h3>
-        <div class="aspect-video bg-slate-900 rounded-lg overflow-hidden flex items-center justify-center">
-          <!-- Aqui você pode usar a tag <video> local ou o iframe do YouTube -->
-          <span class="text-xs text-slate-400"><i class="fa-solid fa-play-circle text-2xl mb-1 block text-center"></i> Vídeo Demonstrativo</span>
+      <!-- Vídeo 1: Tiamat -->
+      <div class="bg-white dark:bg-emerald-950 border border-slate-200 dark:border-emerald-800/60 rounded-xl p-4 shadow-sm flex flex-col justify-between">
+        <div>
+          <h3 class="font-bold text-slate-800 dark:text-white text-sm mb-2">Escultura 3D: Tiamat</h3>
+          <div class="aspect-video bg-slate-900 rounded-lg overflow-hidden flex items-center justify-center mb-3">
+            <video controls class="w-full h-full object-cover rounded-lg">
+              <source src="media/tiamat.mp4" type="video/mp4">
+              Seu navegador não suporta a reprodução de vídeos.
+            </video>
+          </div>
+          <p class="text-xs text-slate-500 dark:text-emerald-300/70">Apresentação e detalhes da modelagem da dragonesa de 5 cabeças.</p>
+        </div>
+      </div>
+
+      <!-- Vídeo 2: Kraken -->
+      <div class="bg-white dark:bg-emerald-950 border border-slate-200 dark:border-emerald-800/60 rounded-xl p-4 shadow-sm flex flex-col justify-between">
+        <div>
+          <h3 class="font-bold text-slate-800 dark:text-white text-sm mb-2">Escultura 3D: Kraken</h3>
+          <div class="aspect-video bg-slate-900 rounded-lg overflow-hidden flex items-center justify-center mb-3">
+            <video controls class="w-full h-full object-cover rounded-lg">
+              <source src="media/kraken.mp4" type="video/mp4">
+              Seu navegador não suporta a reprodução de vídeos.
+            </video>
+          </div>
+          <p class="text-xs text-slate-500 dark:text-emerald-300/70">Modelagem orgânica e texturização do monstro marinho.</p>
+        </div>
+      </div>
+
+      <!-- Vídeo 3: Aarakroka -->
+      <div class="bg-white dark:bg-emerald-950 border border-slate-200 dark:border-emerald-800/60 rounded-xl p-4 shadow-sm flex flex-col justify-between">
+        <div>
+          <h3 class="font-bold text-slate-800 dark:text-white text-sm mb-2">Escultura 3D: Aarakroka</h3>
+          <div class="aspect-video bg-slate-900 rounded-lg overflow-hidden flex items-center justify-center mb-3">
+            <video controls class="w-full h-full object-cover rounded-lg">
+              <source src="media/Aarakroka.mp4" type="video/mp4">
+              Seu navegador não suporta a reprodução de vídeos.
+            </video>
+          </div>
+          <p class="text-xs text-slate-500 dark:text-emerald-300/70">Detalhes anatômicos e estruturação de asas e penas digitais.</p>
         </div>
       </div>
 
