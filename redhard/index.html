@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redes e Hardware | WellingtonEducation</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config = { darkMode: 'class' }</script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body class="bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-emerald-50 font-sans min-h-screen p-8">
+  <div class="max-w-5xl mx-auto space-y-6">
+    
+    <!-- CABEÇALHO -->
+    <div class="flex items-center justify-between border-b border-slate-200 dark:border-emerald-800/60 pb-4">
+      <h1 class="text-xl font-bold text-slate-800 dark:text-white flex items-center gap-2">
+        <i class="fa-solid fa-server text-orange-400"></i> Categoria: Redes e Hardware
+      </h1>
+      <a href="../index.html" class="px-3 py-1.5 bg-slate-200 dark:bg-emerald-900 text-xs font-bold rounded-lg hover:border-orange-500 border transition">← Voltar ao Início</a>
+    </div>
+
+    <p class="text-xs text-slate-500 dark:text-emerald-300/70">
+      Explore os módulos de infraestrutura de redes, topologias, arquitetura de computadores, componentes físicos e manutenção.
+    </p>
+
+    <!-- GRID DAS SUBCLASSES -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      
+      <!-- Redes -->
+      <a href="redes/index.html" class="bg-white dark:bg-emerald-950 border border-slate-200 dark:border-emerald-800/60 rounded-2xl p-6 hover:border-orange-500 transition shadow-lg block group">
+        <div class="w-12 h-12 rounded-xl bg-orange-500/10 border border-orange-500/30 flex items-center justify-center text-orange-400 text-2xl mb-4 group-hover:scale-110 transition">
+          <i class="fa-solid fa-network-wired"></i>
+        </div>
+        <h3 class="text-lg font-bold text-slate-800 dark:text-white mb-2">Redes de Computadores</h3>
+        <p class="text-xs text-slate-500 dark:text-emerald-300/70 mb-4">Protocolos, topologias, endereçamento IP, roteamento e conectividade.</p>
+        <span class="text-xs font-bold text-orange-400 flex items-center gap-1">Acessar Módulo →</span>
+      </a>
+
+      <!-- Hardware -->
+      <a href="hardware/index.html" class="bg-white dark:bg-emerald-950 border border-slate-200 dark:border-emerald-800/60 rounded-2xl p-6 hover:border-orange-500 transition shadow-lg block group">
+        <div class="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 text-2xl mb-4 group-hover:scale-110 transition">
+          <i class="fa-solid fa-microchip"></i>
+        </div>
+        <h3 class="text-lg font-bold text-slate-800 dark:text-white mb-2">Hardware e Montagem</h3>
+        <p class="text-xs text-slate-500 dark:text-emerald-300/70 mb-4">Placas-mãe, processadores, memórias, periféricos e diagnóstico de falhas.</p>
+        <span class="text-xs font-bold text-orange-400 flex items-center gap-1">Acessar Módulo →</span>
+      </a>
+
+    </div>
+  </div>
+  <script src="../script.js"></script>
+</body>
+</html>
