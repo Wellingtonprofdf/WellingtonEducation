@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Linguagens de Programação | WellingtonEducation</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config = { darkMode: 'class' }</script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body class="bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-emerald-50 font-sans min-h-screen p-8">
+  <div class="max-w-5xl mx-auto space-y-6">
+    
+    <!-- CABEÇALHO -->
+    <div class="flex items-center justify-between border-b border-slate-200 dark:border-emerald-800/60 pb-4">
+      <h1 class="text-xl font-bold text-slate-800 dark:text-white flex items-center gap-2">
+        <i class="fa-solid fa-code text-orange-400"></i> Categoria: Linguagens de Programação
+      </h1>
+      <a href="../index.html" class="px-3 py-1.5 bg-slate-200 dark:bg-emerald-900 text-xs font-bold rounded-lg hover:border-orange-500 border transition">← Voltar ao Início</a>
+    </div>
+
+    <p class="text-xs text-slate-500 dark:text-emerald-300/70">
+      Selecione abaixo a tecnologia desejada para acessar os conceitos, vídeos educativos, galeria de projetos e indicações de cursos.
+    </p>
+
+    <!-- GRID DE LINGUAGENS -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      
+      <!-- PHP -->
+      <a href="php/index.html" class="bg-white dark:bg-emerald-950 border border-slate-200 dark:border-emerald-800/60 rounded-2xl p-6 hover:border-orange-500 transition shadow-lg block group">
+        <div class="w-12 h-12 rounded-xl bg-indigo-500/10 border border-indigo-500/30 flex items-center justify-center text-indigo-400 text-2xl mb-4 group-hover:scale-110 transition">
+          <i class="fa-brands fa-php"></i>
+        </div>
+        <h3 class="text-lg font-bold text-slate-800 dark:text-white mb-2">PHP</h3>
+        <p class="text-xs text-slate-500 dark:text-emerald-300/70 mb-4">Desenvolvimento backend, orientação a objetos, MVC e banco de dados.</p>
+        <span class="text-xs font-bold text-orange-400 flex items-center gap-1">Acessar Módulo →</span>
+      </a>
+
+      <!-- JavaScript -->
+      <a href="javascript/index.html" class="bg-white dark:bg-emerald-950 border border-slate-200 dark:border-emerald-800/60 rounded-2xl p-6 hover:border-orange-500 transition shadow-lg block group">
+        <div class="w-12 h-12 rounded-xl bg-yellow-500/10 border border-yellow-500/30 flex items-center justify-center text-yellow-400 text-2xl mb-4 group-hover:scale-110 transition">
+          <i class="fa-brands fa-js"></i>
+        </div>
+        <h3 class="text-lg font-bold text-slate-800 dark:text-white mb-2">JavaScript</h3>
+        <p class="text-xs text-slate-500 dark:text-emerald-300/70 mb-4">Lógica de programação, interatividade frontend e manipulação do DOM.</p>
+        <span class="text-xs font-bold text-orange-400 flex items-center gap-1">Acessar Módulo →</span>
+      </a>
+
+      <!-- HTML -->
+      <a href="html/index.html" class="bg-white dark:bg-emerald-950 border border-slate-200 dark:border-emerald-800/60 rounded-2xl p-6 hover:border-orange-500 transition shadow-lg block group">
+        <div class="w-12 h-12 rounded-xl bg-orange-500/10 border border-orange-500/30 flex items-center justify-center text-orange-400 text-2xl mb-4 group-hover:scale-110 transition">
+          <i class="fa-brands fa-html5"></i>
+        </div>
+        <h3 class="text-lg font-bold text-slate-800 dark:text-white mb-2">HTML5</h3>
+        <p class="text-xs text-slate-500 dark:text-emerald-300/70 mb-4">Estruturação semântica de páginas web e marcação de documentos.</p>
+        <span class="text-xs font-bold text-orange-400 flex items-center gap-1">Acessar Módulo →</span>
+      </a>
+
+      <!-- CSS -->
+      <a href="css/index.html" class="bg-white dark:bg-emerald-950 border border-slate-200 dark:border-emerald-800/60 rounded-2xl p-6 hover:border-orange-500 transition shadow-lg block group">
+        <div class="w-12 h-12 rounded-xl bg-blue-500/10 border border-blue-500/30 flex items-center justify-center text-blue-400 text-2xl mb-4 group-hover:scale-110 transition">
+          <i class="fa-brands fa-css3-alt"></i>
+        </div>
+        <h3 class="text-lg font-bold text-slate-800 dark:text-white mb-2">CSS3</h3>
+        <p class="text-xs text-slate-500 dark:text-emerald-300/70 mb-4">Estilização, layouts responsivos, Flexbox e design visual.</p>
+        <span class="text-xs font-bold text-orange-400 flex items-center gap-1">Acessar Módulo →</span>
+      </a>
+
+    </div>
+  </div>
+  <script src="../script.js"></script>
+</body>
+</html>
