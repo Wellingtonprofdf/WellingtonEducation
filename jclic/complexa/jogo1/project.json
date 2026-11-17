@@ -1,0 +1,42 @@
+{
+  "title": "complexa",
+  "date": "13/11/26",
+  "description": {},
+  "license": {
+    "pt-BR": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
+  },
+  "meta_langs": [
+    "pt-BR"
+  ],
+  "mainFile": "complexa.jclic",
+  "cover": "project-cover.jpg",
+  "thumbnail": "project-thumb.jpg",
+  "activities": 1,
+  "mediaFiles": 18,
+  "totalSize": 1356000,
+  "files": [
+    "carisma-resized.jpg",
+    "carismaimagem1-resized.jpg",
+    "carismaimagem2-resized.jpg",
+    "complexa.jclic",
+    "complexa.jclic.js",
+    "destreza-resized.jpg",
+    "destrezaimagem1-resized.jpg",
+    "destrezaimagem2-resized.jpg",
+    "favicon.ico",
+    "forca-resized.jpg",
+    "forcaimagem1-resized.jpg",
+    "forcaimagem2-resized.jpg",
+    "icon-192.png",
+    "icon-72.png",
+    "imsmanifest.xml",
+    "index.html",
+    "inteligencia-resized.jpg",
+    "inteligenciaimagem1-resized.jpg",
+    "inteliggenciaimagem2-resized.jpg",
+    "planodefundo-resized.jpg",
+    "project-cover.jpg",
+    "project-thumb.jpg",
+    "project.json"
+  ]
+}
