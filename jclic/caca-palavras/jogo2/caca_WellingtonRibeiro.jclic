@@ -42,12 +42,14 @@
    <settings margin="8" maxTime="90" countDownTime="true" report="true" reportActions="false">
     <helpWindow showSolution="true" />
     <container bgColor="0x3300FF">
+     <image name="plano1-resized.jpg" tiled="true" />
      <counters time="true" actions="false" score="false" />
     </container>
-    <window bgColor="0xFFFFCC" border="true" />
+    <window bgColor="0xFFFFCC" transparent="true" border="false" />
    </settings>
-   <textGrid rows="15" columns="15" cellWidth="34.0" cellHeight="28.0" border="true">
-    <style>
+   <textGrid rows="15" columns="15" cellWidth="41.0" cellHeight="36.0" border="true">
+    <style shadow="true" transparent="true" borderStroke="3.1" markerStroke="5.0">
+     <font family="Arial" size="24" bold="true" />
      <color background="0xFFFFFF" />
     </style>
     <text>
@@ -74,8 +76,37 @@
     <clue id="2">PROGRAMA</clue>
     <clue id="3">MEMORIA</clue>
    </clues>
+   <cells rows="2" cols="2" cellWidth="237.0" cellHeight="131.0" border="true" id="secondary">
+    <style borderStroke="1.2" markerStroke="2.7">
+     <color border="0xFFCC00" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell image="imagem1-resized.jpg">
+     <style transparent="true" borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="17" bold="true" />
+     </style>
+    </cell>
+    <cell image="imagem2-resized.jpg">
+     <style transparent="true" borderStroke="0.7" markerStroke="5.0" />
+    </cell>
+    <cell image="imagem5-resized.jpg">
+     <style transparent="true" borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="17" bold="true" />
+     </style>
+    </cell>
+    <cell image="imagem4-resized.jpg">
+     <style transparent="true" borderStroke="0.7" markerStroke="5.0" />
+    </cell>
+   </cells>
+   <layout position="AB" />
   </activity>
  </activities>
- <mediaBag />
+ <mediaBag>
+  <media name="imagem1-resized.jpg" file="imagem1-resized.jpg" />
+  <media name="imagem2-resized.jpg" file="imagem2-resized.jpg" />
+  <media name="imagem4-resized.jpg" file="imagem4-resized.jpg" />
+  <media name="imagem5-resized.jpg" file="imagem5-resized.jpg" />
+  <media name="plano1-resized.jpg" file="plano1-resized.jpg" />
+ </mediaBag>
 </JClicProject>
 
