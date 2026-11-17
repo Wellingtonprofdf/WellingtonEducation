@@ -47,7 +47,7 @@
     <window bgColor="0xC0C0C0" transparent="true" border="true" />
     <skin file="@green.xml" />
    </settings>
-   <cells rows="4" cols="2" cellWidth="203.0" cellHeight="112.0" border="true" id="primary">
+   <cells rows="4" cols="2" cellWidth="291.0" cellHeight="161.0" border="true" id="primary">
     <style />
     <shaper class="@Rectangular" cols="2" rows="4" />
     <cell id="0" image="carismaimagem1-resized.jpg">
@@ -99,7 +99,7 @@
      </style>
     </cell>
    </cells>
-   <cells rows="4" cols="1" cellWidth="183.0" cellHeight="93.0" border="true" id="secondary">
+   <cells rows="4" cols="1" cellWidth="232.0" cellHeight="126.0" border="true" id="secondary">
     <style />
     <shaper class="@Rectangular" cols="1" rows="4" />
     <cell image="carisma-resized.jpg">
