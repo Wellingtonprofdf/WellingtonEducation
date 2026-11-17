@@ -1,36 +1,32 @@
 {
-  "title": "QUARTO",
-  "date": "22/09/26",
+  "title": "Primeiro_T1",
+  "date": "01/09/26",
   "description": {},
   "license": {
-    "pt-BR": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
+    "pt": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
   },
   "meta_langs": [
-    "pt-BR"
+    "pt"
   ],
-  "mainFile": "IDENTI_WELLINGTONT1.jclic",
+  "mainFile": "caca_WellingtonRibeiro.jclic",
   "cover": "project-cover.jpg",
   "thumbnail": "project-thumb.jpg",
   "activities": 1,
-  "mediaFiles": 14,
-  "totalSize": 877587,
+  "mediaFiles": 10,
+  "totalSize": 440482,
   "files": [
-    "IDENTI_WELLINGTONT1.jclic",
-    "IDENTI_WELLINGTONT1.jclic.js",
-    "acertou-resized.jpg",
-    "dragaozbrush-resized.jpg",
+    "caca_WellingtonRibeiro.jclic",
+    "caca_WellingtonRibeiro.jclic.js",
     "favicon.ico",
-    "fundo-resized.jpg",
-    "gemini_generated_image_cffpf2cffpf2cffp-resized.jpg",
-    "gemini_generated_image_igzwrnigzwrnigzw-resized.jpg",
-    "gemini_generated_image_l0xqmel0xqmel0xq-resized.jpg",
-    "gemini_generated_image_lhc0ablhc0ablhc0-resized.jpg",
-    "gemini_generated_image_lhgatllhgatllhga-resized.jpg",
-    "gemini_generated_image_s7iu80s7iu80s7iu-resized.jpg",
     "icon-192.png",
     "icon-72.png",
+    "imagem1-resized.jpg",
+    "imagem2-resized.jpg",
+    "imagem4-resized.jpg",
+    "imagem5-resized.jpg",
     "imsmanifest.xml",
     "index.html",
+    "plano1-resized.jpg",
     "project-cover.jpg",
     "project-thumb.jpg",
     "project.json"
