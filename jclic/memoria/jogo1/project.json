@@ -1,0 +1,38 @@
+{
+  "title": "MEMORIA",
+  "date": "17/11/26",
+  "description": {},
+  "license": {
+    "pt-BR": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
+  },
+  "meta_langs": [
+    "pt-BR"
+  ],
+  "mainFile": "memoria.jclic",
+  "cover": "project-cover.jpg",
+  "thumbnail": "project-thumb.jpg",
+  "activities": 1,
+  "mediaFiles": 14,
+  "totalSize": 512508,
+  "files": [
+    "anjosolar-resized.jpg",
+    "ankheg-resized.jpg",
+    "dragaoanciao-resized1.jpg",
+    "drider-resized.jpg",
+    "elfa2-resized.jpg",
+    "errante-resized.jpg",
+    "favicon.ico",
+    "goblin-resized.jpg",
+    "icon-192.png",
+    "icon-72.png",
+    "imsmanifest.xml",
+    "index.html",
+    "memoria.jclic",
+    "memoria.jclic.js",
+    "planodefundo2-resized.jpg",
+    "project-cover.jpg",
+    "project-thumb.jpg",
+    "project.json",
+    "troll-resized.jpg"
+  ]
+}

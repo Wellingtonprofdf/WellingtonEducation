@@ -1,0 +1,38 @@
+{
+  "title": "MEMORIA",
+  "date": "17/11/26",
+  "description": {},
+  "license": {
+    "pt-BR": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
+  },
+  "meta_langs": [
+    "pt-BR"
+  ],
+  "mainFile": "memoria2.jclic",
+  "cover": "project-cover.jpg",
+  "thumbnail": "project-thumb.jpg",
+  "activities": 1,
+  "mediaFiles": 14,
+  "totalSize": 543601,
+  "files": [
+    "banshee-resized.jpg",
+    "devoradordementes-resized.jpg",
+    "dragaobrancoanciao-resized.jpg",
+    "elfodrow-resized.jpg",
+    "favicon.ico",
+    "gnoll-resized.jpg",
+    "golendeferro-resized.jpg",
+    "icon-192.png",
+    "icon-72.png",
+    "imsmanifest.xml",
+    "index.html",
+    "marilith-resized.jpg",
+    "memoria2.jclic",
+    "memoria2.jclic.js",
+    "planodefundo2-resized.jpg",
+    "project-cover.jpg",
+    "project-thumb.jpg",
+    "project.json",
+    "tiamat-resized2.jpg"
+  ]
+}

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="memoria" version="0.1.3">
+ <settings>
+  <title>MEMORIA</title>
+  <revision description="created" date="11/17/26" />
+  <descriptors />
+  <meta_langs>pt-BR</meta_langs>
+  <descriptions>
+   <description language="pt-BR" />
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="MEMORIA_WELLINGTON" />
+ </sequence>
+ <activities>
+  <activity class="@memory.MemoryGame" name="MEMORIA_WELLINGTON" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style shadow="true" borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="36" bold="true" />
+      <color foreground="0xFFFFFF" background="0x009999" />
+     </style>
+     <p>ENCONTRE OS PARES NO MENOR TEMPO QUE PUDER!</p>
+    </cell>
+    <cell type="final">
+     <style shadow="true">
+      <font family="Arial" size="48" bold="true" />
+      <color foreground="0xFFFFFF" background="0x009900" />
+     </style>
+     <p>VOCÊ VENCEU! PARABÉNS!!!</p>
+    </cell>
+    <cell type="finalError">
+     <style shadow="true">
+      <font family="Arial" size="48" bold="true" />
+      <color foreground="0xFFFFFF" background="0xCC0000" />
+     </style>
+     <p>VAMOS TENTAR MAIS UMA VEZ?</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxTime="90" countDownTime="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="planodefundo2-resized.jpg" tiled="true" />
+     <counters time="true" actions="false" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="2" cols="4" cellWidth="141.0" cellHeight="209.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="4" rows="2" />
+    <cell image="elfa2-resized.jpg">
+     <style shadow="true" transparent="true" borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="36" bold="true" />
+      <color foreground="0xFFFFFF" background="0x009999" />
+     </style>
+    </cell>
+    <cell image="anjosolar-resized.jpg">
+     <style shadow="true" transparent="true" borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="36" bold="true" />
+      <color foreground="0xFFFFFF" background="0x009999" />
+     </style>
+    </cell>
+    <cell image="troll-resized.jpg">
+     <style shadow="true" transparent="true" borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="36" bold="true" />
+      <color foreground="0xFFFFFF" background="0x009999" />
+     </style>
+    </cell>
+    <cell image="drider-resized.jpg">
+     <style shadow="true" transparent="true" borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="36" bold="true" />
+      <color foreground="0xFFFFFF" background="0x009999" />
+     </style>
+    </cell>
+    <cell image="goblin-resized.jpg">
+     <style shadow="true" transparent="true" borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="36" bold="true" />
+      <color foreground="0xFFFFFF" background="0x009999" />
+     </style>
+    </cell>
+    <cell image="ankheg-resized.jpg">
+     <style shadow="true" transparent="true" borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="36" bold="true" />
+      <color foreground="0xFFFFFF" background="0x009999" />
+     </style>
+    </cell>
+    <cell image="errante-resized.jpg">
+     <style shadow="true" transparent="true" borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="36" bold="true" />
+      <color foreground="0xFFFFFF" background="0x009999" />
+     </style>
+    </cell>
+    <cell image="dragaoanciao-resized1.jpg">
+     <style shadow="true" transparent="true" borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="36" bold="true" />
+      <color foreground="0xFFFFFF" background="0x009999" />
+     </style>
+    </cell>
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="anjosolar-resized.jpg" file="anjosolar-resized.jpg" />
+  <media name="ankheg-resized.jpg" file="ankheg-resized.jpg" />
+  <media name="dragaoanciao-resized1.jpg" file="dragaoanciao-resized1.jpg" />
+  <media name="drider-resized.jpg" file="drider-resized.jpg" />
+  <media name="elfa2-resized.jpg" file="elfa2-resized.jpg" />
+  <media name="errante-resized.jpg" file="errante-resized.jpg" />
+  <media name="goblin-resized.jpg" file="goblin-resized.jpg" />
+  <media name="planodefundo2-resized.jpg" file="planodefundo2-resized.jpg" />
+  <media name="troll-resized.jpg" file="troll-resized.jpg" />
+ </mediaBag>
+</JClicProject>
+
