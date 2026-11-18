@@ -22,7 +22,7 @@
       <font family="Arial" size="28" />
       <color background="0xFFFF00" />
      </style>
-     <p>RELACIONE OS PERSOANGENS ÀS SUAS RAÇAS EM 90s ou 5 CHANCES</p>
+     <p>RELACIONE OS PERSONAGENS ÀS SUAS RAÇAS EM 90s ou 5 CHANCES</p>
     </cell>
     <cell type="final">
      <style>
@@ -93,7 +93,9 @@
       <color background="0xFFFF00" />
      </style>
     </cell>
-    <cell image="nomeorc-resized1.jpg" />
+    <cell image="nomeorc-resized1.jpg">
+     <style transparent="true" borderStroke="0.7" markerStroke="5.0" />
+    </cell>
    </cells>
    <scramble times="31" primary="true" secondary="true" />
    <layout position="AUB" />
