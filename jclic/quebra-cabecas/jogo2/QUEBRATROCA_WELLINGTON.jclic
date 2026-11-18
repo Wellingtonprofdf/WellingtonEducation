@@ -42,10 +42,10 @@
    <settings margin="8" dragCells="true" maxTime="90" countDownTime="false" report="true" reportActions="false">
     <helpWindow showSolution="true" />
     <container bgColor="0xC0C0C0">
-     <image name="planodefundo-resized1.jpg" tiled="true" />
+     <image name="plano3-resized.jpg" tiled="true" />
      <counters time="true" actions="false" score="false" />
     </container>
-    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
     <skin file="@blue.xml" />
    </settings>
    <cells rows="5" cols="5" border="true" image="Anão.png">
@@ -59,7 +59,7 @@
   </activity>
  </activities>
  <mediaBag>
-  <media name="planodefundo-resized1.jpg" file="planodefundo-resized1.jpg" />
+  <media name="plano3-resized.jpg" file="plano3-resized.jpg" />
   <media name="Anão.png" file="anao.png" />
  </mediaBag>
 </JClicProject>
