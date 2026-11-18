@@ -1,9 +1,7 @@
 {
   "title": "TEXTO",
   "date": "14/11/26",
-  "description": {
-    "pt-BR": ""
-  },
+  "description": {},
   "license": {
     "pt-BR": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
   },
@@ -15,7 +13,7 @@
   "thumbnail": "project-thumb.jpg",
   "activities": 1,
   "mediaFiles": 7,
-  "totalSize": 322954,
+  "totalSize": 322961,
   "files": [
     "ciborg-resized.jpg",
     "favicon.ico",

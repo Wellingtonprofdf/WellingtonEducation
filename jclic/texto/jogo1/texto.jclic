@@ -22,7 +22,7 @@
       <font family="Arial" size="36" bold="true" />
       <color foreground="0xFFFFFF" background="0x0099CC" />
      </style>
-     <p>PREENCHA AS LACUNAS EM ATÉ 40s</p>
+     <p>PREENCHA AS LACUNAS EM ATÉ 40s OU 4 CHANCES</p>
     </cell>
     <cell type="final">
      <style shadow="true">
@@ -52,7 +52,7 @@
    <document>
     <style name="targetError" base="target" foreground="0xFF0000" />
     <style name="target" base="default" foreground="0x0000FF" target="true" />
-    <style name="default" family="Arial" background="0xFFFFFF" tabWidth="12" size="24" bold="false" italic="false" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="24" bold="false" italic="false" tabWidth="12" />
     <section>
      <p family="Arial" background="0xFFFFFF" size="11" bold="false" italic="false" Alignment="1">
       <text family="Arial" background="0xFFFFFF" size="24" bold="true" italic="false" foreground="0x000000">Em uma galáxia distante!</text>
