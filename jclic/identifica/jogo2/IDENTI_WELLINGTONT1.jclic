@@ -19,15 +19,15 @@
    <messages>
     <cell border="true" type="initial">
      <style shadow="true" borderStroke="0.7" markerStroke="5.0">
-      <font family="Arial" size="48" bold="true" />
-      <color foreground="0xFFFFFF" background="0x009900" />
+      <font family="Arial" size="48" />
+      <color foreground="0xFFFFFF" background="0x009999" />
      </style>
-     <p>ENCONTRE OS INTRUSOS EM ATÉ 90s OU 3 CHANCES</p>
+     <p>ENCONTRE OS INTRUSOS EM ATÉ 30s OU 3 CHANCES</p>
     </cell>
     <cell type="final">
      <style shadow="true">
       <font family="Arial" size="72" bold="true" />
-      <color foreground="0xFFFFFF" background="0x3366FF" />
+      <color foreground="0xFFFFFF" background="0x339900" />
      </style>
      <p>UHUUUUUULLLLLLL</p>
     </cell>
@@ -39,7 +39,7 @@
      <p>TENTE NOVAMENTE</p>
     </cell>
    </messages>
-   <settings margin="8" maxTime="90" countDownTime="true" maxActions="3" countDownActions="true" report="true" reportActions="false">
+   <settings margin="8" maxTime="30" countDownTime="true" maxActions="3" countDownActions="true" report="true" reportActions="false">
     <container bgColor="0x66FF66">
      <image name="fundo-resized.jpg" tiled="true" />
      <counters time="true" actions="true" score="true" />
@@ -83,6 +83,7 @@
    </cells>
    <cells rows="2" cols="3" cellWidth="50.0" cellHeight="30.0" border="true" id="solvedPrimary">
     <style />
+    <shaper class="@Rectangular" cols="3" rows="2" />
     <cell />
     <cell />
     <cell image="Acertou-resized.jpg" />
@@ -101,7 +102,6 @@
   <media name="Gemini_Generated_Image_igzwrnigzwrnigzw-resized.jpg" file="gemini_generated_image_igzwrnigzwrnigzw-resized.jpg" />
   <media name="Gemini_Generated_Image_l0xqmel0xqmel0xq-resized.jpg" file="gemini_generated_image_l0xqmel0xqmel0xq-resized.jpg" />
   <media name="Gemini_Generated_Image_lhc0ablhc0ablhc0-resized.jpg" file="gemini_generated_image_lhc0ablhc0ablhc0-resized.jpg" />
-  <media name="Gemini_Generated_Image_lhgatllhgatllhga-resized.jpg" file="gemini_generated_image_lhgatllhgatllhga-resized.jpg" />
   <media name="Gemini_Generated_Image_s7iu80s7iu80s7iu-resized.jpg" file="gemini_generated_image_s7iu80s7iu80s7iu-resized.jpg" />
  </mediaBag>
 </JClicProject>
