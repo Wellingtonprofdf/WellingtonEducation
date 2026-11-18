@@ -1,27 +1,25 @@
 {
   "title": "EXTRA",
   "date": "14/11/26",
-  "description": {
-    "pt-BR": ""
-  },
+  "description": {},
   "license": {
     "pt-BR": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
   },
   "meta_langs": [
     "pt-BR"
   ],
-  "mainFile": "QUEBRAFRASE_WELLINGTON.jclic",
+  "mainFile": "extra.jclic",
   "cover": "project-cover.jpg",
   "thumbnail": "project-thumb.jpg",
   "activities": 1,
   "mediaFiles": 11,
-  "totalSize": 629592,
+  "totalSize": 629420,
   "files": [
-    "QUEBRAFRASE_WELLINGTON.jclic",
-    "QUEBRAFRASE_WELLINGTON.jclic.js",
     "anossa-resized.jpg",
     "ateagloria-resized.jpg",
     "derpg-resized.jpg",
+    "extra.jclic",
+    "extra.jclic.js",
     "favicon.ico",
     "icon-192.png",
     "icon-72.png",
