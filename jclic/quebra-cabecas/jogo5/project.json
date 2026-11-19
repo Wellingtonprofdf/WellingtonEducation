@@ -8,13 +8,15 @@
   "meta_langs": [
     "pt-BR"
   ],
-  "mainFile": "lac_wellington.jclic",
+  "mainFile": "LACUNA_WELLINGTON2.jclic",
   "cover": "project-cover.jpg",
   "thumbnail": "project-thumb.jpg",
   "activities": 1,
   "mediaFiles": 7,
-  "totalSize": 295983,
+  "totalSize": 296075,
   "files": [
+    "LACUNA_WELLINGTON2.jclic",
+    "LACUNA_WELLINGTON2.jclic.js",
     "beholder-resized.jpg",
     "favicon.ico",
     "gruporpg-resized.jpg",
@@ -22,8 +24,6 @@
     "icon-72.png",
     "imsmanifest.xml",
     "index.html",
-    "lac_wellington.jclic",
-    "lac_wellington.jclic.js",
     "project-cover.jpg",
     "project-thumb.jpg",
     "project.json"

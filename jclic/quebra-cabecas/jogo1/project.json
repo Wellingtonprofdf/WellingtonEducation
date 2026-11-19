@@ -8,13 +8,15 @@
   "meta_langs": [
     "pt-BR"
   ],
-  "mainFile": "quebra.jclic",
+  "mainFile": "QUEBRA_CABEÇA1.jclic",
   "cover": "project-cover.jpg",
   "thumbnail": "project-thumb.jpg",
   "activities": 1,
   "mediaFiles": 7,
-  "totalSize": 357717,
+  "totalSize": 357797,
   "files": [
+    "QUEBRA_CABEÇA1.jclic",
+    "QUEBRA_CABEÇA1.jclic.js",
     "elfosamurai-resized.jpg",
     "favicon.ico",
     "icon-192.png",
@@ -24,8 +26,6 @@
     "planodefundo-resized1.jpg",
     "project-cover.jpg",
     "project-thumb.jpg",
-    "project.json",
-    "quebra.jclic",
-    "quebra.jclic.js"
+    "project.json"
   ]
 }

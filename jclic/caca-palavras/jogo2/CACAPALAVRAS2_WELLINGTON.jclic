@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="CACAPALAVRAS2_WELLINGTON" version="0.1.3">
+ <settings>
+  <title>Primeiro_T1</title>
+  <revision description="created" date="9/1/26" />
+  <descriptors />
+  <meta_langs>pt</meta_langs>
+  <descriptions>
+   <description language="pt" />
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="caca_WellingtonRibeiro" />
+ </sequence>
+ <activities>
+  <activity class="@textGrid.WordSearch" name="caca_WellingtonRibeiro" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style shadow="true">
+      <font family="Arial" size="36" bold="true" />
+      <color foreground="0xFFFFFF" background="0x009999" />
+     </style>
+     <p>ENCONTRE OS PERSONAGENS DE RPG EM 90 SEGUNDOS</p>
+    </cell>
+    <cell type="final">
+     <style shadow="true">
+      <font family="Arial" size="48" bold="true" />
+      <color foreground="0xFFFFFF" background="0x00CC00" />
+     </style>
+     <p>PARABÉNS! VOCÊ CONSEGUIU</p>
+    </cell>
+    <cell type="finalError">
+     <style shadow="true" borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="48" bold="true" />
+      <color foreground="0xFFFFFF" background="0xCC0033" />
+     </style>
+     <p>VAMOS TENTAR NOVAMENTE?</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxTime="90" countDownTime="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x3300FF">
+     <image name="fundokraken-resized.jpg" tiled="true" />
+     <counters time="true" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFFFFCC" transparent="true" border="false" />
+    <skin file="@orange.xml" />
+   </settings>
+   <textGrid rows="15" columns="15" cellWidth="41.0" cellHeight="36.0" border="true">
+    <style shadow="true" transparent="true" borderStroke="3.1" markerStroke="5.0">
+     <font family="Arial" size="24" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>***************</row>
+     <row>***************</row>
+     <row>***************</row>
+     <row>Á*HIPOGRIFO****</row>
+     <row>**O************</row>
+     <row>**B**BUGBEARS**</row>
+     <row>**G************</row>
+     <row>*HOMEMCHACAL*Á*</row>
+     <row>**B******A*****</row>
+     <row>**L******M*****</row>
+     <row>**I******B*****</row>
+     <row>**N******I*****</row>
+     <row>**S*Á****O*****</row>
+     <row>*********NÁ****</row>
+     <row>****BRUXAVERDE*</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">HIPOGRIFO</clue>
+    <clue id="1">HOBGOBLINS</clue>
+    <clue id="2">HOMEMCHACAL</clue>
+    <clue id="3">CAMBION</clue>
+    <clue id="4">BRUXAVERDE</clue>
+    <clue id="5">BUGBEARS</clue>
+   </clues>
+   <cells rows="3" cols="2" cellWidth="237.0" cellHeight="131.0" border="true" id="secondary">
+    <style borderStroke="1.2" markerStroke="2.7">
+     <color border="0xFFCC00" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="3" />
+    <cell image="hipogrifo-resized.jpg">
+     <style transparent="true" borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="17" bold="true" />
+     </style>
+    </cell>
+    <cell image="hobgoblin-resized.jpg">
+     <style transparent="true" borderStroke="0.7" markerStroke="5.0" />
+    </cell>
+    <cell image="homemchacal-resized.jpg">
+     <style transparent="true" borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="17" bold="true" />
+     </style>
+    </cell>
+    <cell image="cambion-resized.jpg">
+     <style transparent="true" borderStroke="0.7" markerStroke="5.0" />
+    </cell>
+    <cell image="bruxaverde-resized.jpg">
+     <style transparent="true" borderStroke="0.7" markerStroke="5.0" />
+    </cell>
+    <cell image="bugbears-resized.jpg">
+     <style transparent="true" borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="17" bold="true" />
+     </style>
+    </cell>
+   </cells>
+   <layout position="AB" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="bruxaverde-resized.jpg" file="bruxaverde-resized.jpg" />
+  <media name="bugbears-resized.jpg" file="bugbears-resized.jpg" />
+  <media name="cambion-resized.jpg" file="cambion-resized.jpg" />
+  <media name="fundokraken-resized.jpg" file="fundokraken-resized.jpg" />
+  <media name="hipogrifo-resized.jpg" file="hipogrifo-resized.jpg" />
+  <media name="hobgoblin-resized.jpg" file="hobgoblin-resized.jpg" />
+  <media name="homemchacal-resized.jpg" file="homemchacal-resized.jpg" />
+ </mediaBag>
+</JClicProject>
+
