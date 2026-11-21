@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="extra1" version="0.1.3">
+ <settings>
+  <title>EXTRA1</title>
+  <revision description="created" date="11/19/26" />
+  <descriptors />
+  <meta_langs>pt-BR</meta_langs>
+  <descriptions>
+   <description language="pt-BR" />
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="EXPLORACAO_WELLINGTON" />
+ </sequence>
+ <activities>
+  <activity class="@panels.Explore" name="EXPLORACAO_WELLINGTON" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style shadow="true" borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0x0099CC" />
+     </style>
+     <p>VAMOS CONHECER MAIS SOBRE OS PERSONAGENS DO RPG EM 120s</p>
+    </cell>
+    <cell type="final">
+     <style shadow="true">
+      <font family="Arial" size="36" bold="true" />
+      <color foreground="0xFFFFFF" background="0x339900" />
+     </style>
+     <p>APROVEITE BEM ESSAS INFORMAÇÕES!</p>
+    </cell>
+    <cell type="finalError">
+     <style shadow="true">
+      <font family="Arial" size="36" bold="true" />
+      <color foreground="0xFFFFFF" background="0xCC0033" />
+     </style>
+     <p>TENTE LER UM POUCO MAIS!</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxTime="120" countDownTime="true" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fundo-resized1.jpg" tiled="true" />
+     <counters time="true" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+   </settings>
+   <cells rows="3" cols="1" cellWidth="284.0" cellHeight="155.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell id="0" image="anjo solar-resized.jpg">
+     <style transparent="true">
+      <font family="Arial" size="22" />
+      <color background="0x000000" />
+     </style>
+    </cell>
+    <cell id="1" image="elfafloresta-resized.jpg">
+     <style transparent="true">
+      <font family="Arial" size="22" />
+      <color background="0x000000" />
+     </style>
+    </cell>
+    <cell id="2" image="sereia-resized.jpg">
+     <style transparent="true">
+      <font family="Arial" size="22" />
+      <color background="0x000000" />
+     </style>
+    </cell>
+   </cells>
+   <cells rows="3" cols="1" cellWidth="767.0" cellHeight="155.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell border="true">
+     <style shadow="true" transparent="true">
+      <font family="Arial" size="22" />
+      <color foreground="0xFFFFFF" background="0x000000" />
+     </style>
+     <p>Onde as sombras ousam avançar, surge o Anjo Solar — um emissário da luz cujo brilho anuncia tanto a esperança quanto o julgamento. Com grandes asas douradas e uma auréola radiante que corta o céu, ele carrega a chama do sol na lâmina e a precisão divina no arco. Seja como aliado inesperado ou sentinela dos planos celestiais, sua presença transforma o campo de batalha em um marco entre a escuridão e a alvorada</p>
+    </cell>
+    <cell>
+     <style shadow="true" transparent="true">
+      <font family="Arial" size="22" />
+      <color foreground="0xFFFFFF" background="0x000000" inactive="0xFFFFFF" />
+     </style>
+     <p>Entre os raios de luz que atravessam as copas antigas e o brilho sereno da floresta viva, surge a Elfa da Floresta Relusente — uma guardiã da natureza cujo esplendor ecoa a magia primordial do bosque. Com longos cabelos trançados entrelaçados a luzes e cristais verdes, olhos luminosos e um cajado que parece brotar da própria mata, ela caminha descalça sobre o musgo como parte da própria canção da floresta. Seja como guia mística ou protetora dos segredos antigos, sua presença envolve o ambiente em encanto e vitalidade.</p>
+    </cell>
+    <cell>
+     <style shadow="true" transparent="true">
+      <font family="Arial" size="22" />
+      <color foreground="0xFFFFFF" background="0x000000" />
+     </style>
+     <p>Princesa Sereia — soberana de graça serena e presença majestosa, onde a beleza se une à força tranquila das marés. Com longos cabelos ruivos que flutuam na correnteza, coroa adornada de pérolas e corais, cauda cintilante em tons de azul e dourado e um cetro luminoso em mãos, ela reina com plenitude sobre seu reino submerso. Seja como emissária das profundezas ou guardiã dos tesouros do oceano, sua postura transmite nobreza e harmonia em cada movimento.</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AB" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="anjo solar-resized.jpg" file="anjo_solar-resized.jpg" />
+  <media name="elfafloresta-resized.jpg" file="elfafloresta-resized.jpg" />
+  <media name="fundo-resized1.jpg" file="fundo-resized1.jpg" />
+  <media name="sereia-resized.jpg" file="sereia-resized.jpg" />
+ </mediaBag>
+</JClicProject>
+
