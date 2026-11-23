@@ -39,7 +39,7 @@
      <p>NÃO DESISTA, TENTE NOVAMENTE!!!!</p>
     </cell>
    </messages>
-   <settings margin="8" dragCells="true" maxTime="90" countDownTime="true" maxActions="6" countDownActions="true" report="true" reportActions="false">
+   <settings margin="8" dragCells="true" maxTime="90" countDownTime="true" maxActions="5" countDownActions="true" report="true" reportActions="false">
     <container bgColor="0xFFCC33">
      <image name="fundo1-resized.jpg" tiled="true" />
      <counters time="true" actions="true" score="true" />
