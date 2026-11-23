@@ -1,9 +1,7 @@
 {
   "title": "quartoc",
   "date": "10/11/26",
-  "description": {
-    "pt-BR": ""
-  },
+  "description": {},
   "license": {
     "pt-BR": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
   },
@@ -15,7 +13,7 @@
   "thumbnail": "project-thumb.jpg",
   "activities": 1,
   "mediaFiles": 16,
-  "totalSize": 678930,
+  "totalSize": 679187,
   "files": [
     "IDENTI_WELLINGTON3.jclic",
     "IDENTI_WELLINGTON3.jclic.js",

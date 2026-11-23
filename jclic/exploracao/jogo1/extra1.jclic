@@ -45,9 +45,12 @@
      <counters time="true" actions="false" score="false" />
     </container>
     <window bgColor="0xC0C0C0" transparent="true" border="true" />
+    <skin file="@orange.xml" />
    </settings>
    <cells rows="3" cols="1" cellWidth="284.0" cellHeight="155.0" border="true" id="primary">
-    <style />
+    <style transparent="true" borderStroke="0.7" markerStroke="5.0">
+     <color background="0xFFFFFF" />
+    </style>
     <shaper class="@Rectangular" cols="1" rows="3" />
     <cell id="0" image="anjo solar-resized.jpg">
      <style transparent="true">
@@ -69,7 +72,7 @@
     </cell>
    </cells>
    <cells rows="3" cols="1" cellWidth="767.0" cellHeight="155.0" border="true" id="secondary">
-    <style />
+    <style transparent="true" />
     <shaper class="@Rectangular" cols="1" rows="3" />
     <cell border="true">
      <style shadow="true" transparent="true">
@@ -93,7 +96,7 @@
      <p>Princesa Sereia — soberana de graça serena e presença majestosa, onde a beleza se une à força tranquila das marés. Com longos cabelos ruivos que flutuam na correnteza, coroa adornada de pérolas e corais, cauda cintilante em tons de azul e dourado e um cetro luminoso em mãos, ela reina com plenitude sobre seu reino submerso. Seja como emissária das profundezas ou guardiã dos tesouros do oceano, sua postura transmite nobreza e harmonia em cada movimento.</p>
     </cell>
    </cells>
-   <scramble times="31" primary="false" />
+   <scramble times="31" primary="true" />
    <layout position="AB" />
   </activity>
  </activities>

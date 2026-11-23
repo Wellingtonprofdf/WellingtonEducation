@@ -18,21 +18,21 @@
    <description />
    <messages>
     <cell type="initial">
-     <style borderStroke="0.7" markerStroke="5.0">
+     <style shadow="true" borderStroke="0.7" markerStroke="5.0">
       <font family="Arial" size="24" bold="true" />
-      <color foreground="0xFFFFFF" background="0xCC00CC" />
+      <color foreground="0xFFFFFF" background="0x009999" />
      </style>
-     <p>SELECIONE IMAGENS QUE NÃO REPRESENTAM HARDWARE EM 90s</p>
+     <p>SELECIONE IMAGENS QUE NÃO REPRESENTAM HARDWARE EM 90s OU 3 CHANCES</p>
     </cell>
     <cell border="true" type="final">
-     <style>
+     <style shadow="true">
       <font family="Arial" size="72" bold="true" />
       <color foreground="0xFFFFFF" background="0x00CC00" />
      </style>
      <p>VOCÊ CONSEGUIU UHUUUUU</p>
     </cell>
-    <cell border="true" type="finalError">
-     <style>
+    <cell avoidOverlapping="true" border="true" type="finalError">
+     <style shadow="true">
       <font family="Arial" size="48" bold="true" />
       <color foreground="0xFFFFFF" background="0xFF3300" />
      </style>
@@ -101,6 +101,7 @@
    </cells>
    <cells rows="2" cols="4" cellWidth="50.0" cellHeight="30.0" border="true" id="solvedPrimary">
     <style />
+    <shaper class="@Rectangular" cols="4" rows="2" />
     <cell image="yente_novamente-resized.jpg" />
     <cell image="Acertou-resized1.jpg">
      <style>

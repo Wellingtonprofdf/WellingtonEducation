@@ -8,15 +8,15 @@
   "meta_langs": [
     "pt-BR"
   ],
-  "mainFile": "LACUNA_WELLINGTON2.jclic",
+  "mainFile": "LACUNA_WELLINGTON.jclic",
   "cover": "project-cover.jpg",
   "thumbnail": "project-thumb.jpg",
   "activities": 1,
   "mediaFiles": 7,
-  "totalSize": 296075,
+  "totalSize": 296008,
   "files": [
-    "LACUNA_WELLINGTON2.jclic",
-    "LACUNA_WELLINGTON2.jclic.js",
+    "LACUNA_WELLINGTON.jclic",
+    "LACUNA_WELLINGTON.jclic.js",
     "beholder-resized.jpg",
     "favicon.ico",
     "gruporpg-resized.jpg",

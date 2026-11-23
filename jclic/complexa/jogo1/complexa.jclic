@@ -25,9 +25,9 @@
      <p>RELACIONE AS COLUNAS CORRETAMENTE EM ATÉ 90s OU 8 MOVIMENTOS</p>
     </cell>
     <cell type="final">
-     <style>
+     <style shadow="true" borderStroke="0.7" markerStroke="5.0">
       <font family="Arial" size="48" bold="true" />
-      <color background="0x00FF33" />
+      <color foreground="0xFFFFFF" background="0x009900" />
      </style>
      <p>VITÓRIA !!!!!!</p>
     </cell>
@@ -39,7 +39,7 @@
      <p>VAMOS TENTAR MAIS UMA VEZ?</p>
     </cell>
    </messages>
-   <settings margin="8" dragCells="true" maxTime="90" countDownTime="true" maxActions="8" countDownActions="false" report="true" reportActions="false">
+   <settings margin="8" dragCells="true" maxTime="90" countDownTime="true" maxActions="8" countDownActions="true" report="true" reportActions="false">
     <container bgColor="0xC0C0C0">
      <image name="planodefundo-resized.jpg" tiled="true" />
      <counters time="true" actions="true" score="true" />

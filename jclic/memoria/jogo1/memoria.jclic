@@ -48,54 +48,57 @@
     <skin file="@orange.xml" />
    </settings>
    <cells rows="2" cols="4" cellWidth="141.0" cellHeight="209.0" border="true" id="primary">
-    <style />
+    <style shadow="true" borderStroke="5.0" markerStroke="2.7">
+     <font family="Arial" size="17" bold="true" />
+     <color border="0xFFFF00" />
+    </style>
     <shaper class="@Rectangular" cols="4" rows="2" />
-    <cell image="elfa2-resized.jpg">
-     <style shadow="true" transparent="true" borderStroke="0.7" markerStroke="5.0">
+    <cell border="true" image="elfa2-resized.jpg">
+     <style shadow="true" transparent="true" borderStroke="7.2" markerStroke="5.0">
       <font family="Arial" size="36" bold="true" />
-      <color foreground="0xFFFFFF" background="0x009999" />
+      <color foreground="0xFFFFFF" background="0x009999" border="0xFFFF00" />
      </style>
     </cell>
-    <cell image="anjosolar-resized.jpg">
-     <style shadow="true" transparent="true" borderStroke="0.7" markerStroke="5.0">
+    <cell border="true" image="anjosolar-resized.jpg">
+     <style shadow="true" transparent="true" borderStroke="4.1" markerStroke="5.0">
       <font family="Arial" size="36" bold="true" />
-      <color foreground="0xFFFFFF" background="0x009999" />
+      <color foreground="0xFFFFFF" background="0x009999" border="0xCCCC00" />
      </style>
     </cell>
-    <cell image="troll-resized.jpg">
-     <style shadow="true" transparent="true" borderStroke="0.7" markerStroke="5.0">
+    <cell border="true" image="troll-resized.jpg">
+     <style shadow="true" transparent="true" borderStroke="6.6" markerStroke="5.0">
       <font family="Arial" size="36" bold="true" />
-      <color foreground="0xFFFFFF" background="0x009999" />
+      <color foreground="0xFFFFFF" background="0x009999" border="0xCCCC00" />
      </style>
     </cell>
-    <cell image="drider-resized.jpg">
-     <style shadow="true" transparent="true" borderStroke="0.7" markerStroke="5.0">
+    <cell border="true" image="drider-resized.jpg">
+     <style shadow="true" transparent="true" borderStroke="7.9" markerStroke="5.0">
       <font family="Arial" size="36" bold="true" />
-      <color foreground="0xFFFFFF" background="0x009999" />
+      <color foreground="0xFFFFFF" background="0x009999" border="0xCCCC00" />
      </style>
     </cell>
-    <cell image="goblin-resized.jpg">
-     <style shadow="true" transparent="true" borderStroke="0.7" markerStroke="5.0">
+    <cell border="true" image="goblin-resized.jpg">
+     <style shadow="true" transparent="true" borderStroke="7.1" markerStroke="5.0">
       <font family="Arial" size="36" bold="true" />
-      <color foreground="0xFFFFFF" background="0x009999" />
+      <color foreground="0xFFFFFF" background="0x009999" border="0xCCCC00" />
      </style>
     </cell>
-    <cell image="ankheg-resized.jpg">
-     <style shadow="true" transparent="true" borderStroke="0.7" markerStroke="5.0">
+    <cell border="true" image="ankheg-resized.jpg">
+     <style shadow="true" transparent="true" borderStroke="5.9" markerStroke="5.0">
       <font family="Arial" size="36" bold="true" />
-      <color foreground="0xFFFFFF" background="0x009999" />
+      <color foreground="0xFFFFFF" background="0x009999" border="0xCCCC00" />
      </style>
     </cell>
-    <cell image="errante-resized.jpg">
-     <style shadow="true" transparent="true" borderStroke="0.7" markerStroke="5.0">
-      <font family="Arial" size="36" bold="true" />
-      <color foreground="0xFFFFFF" background="0x009999" />
+    <cell border="true" image="errante-resized.jpg">
+     <style shadow="true" transparent="true" borderStroke="6.5" markerStroke="5.0">
+      <font family="Arial" size="36" />
+      <color foreground="0xFFFFFF" background="0x009999" border="0xCCCC00" />
      </style>
     </cell>
-    <cell image="dragaoanciao-resized1.jpg">
-     <style shadow="true" transparent="true" borderStroke="0.7" markerStroke="5.0">
+    <cell border="true" image="dragaoanciao-resized1.jpg">
+     <style shadow="true" transparent="true" borderStroke="6.3" markerStroke="5.0">
       <font family="Arial" size="36" bold="true" />
-      <color foreground="0xFFFFFF" background="0x009999" />
+      <color foreground="0xFFFFFF" background="0x009999" border="0xCCCC00" />
      </style>
     </cell>
    </cells>

@@ -41,61 +41,64 @@
    </messages>
    <settings margin="8" maxTime="90" countDownTime="true" report="true" reportActions="false">
     <container bgColor="0xC0C0C0">
-     <image name="planodefundo2-resized.jpg" tiled="true" />
+     <image name="cenario-resized.jpg" tiled="true" />
      <counters time="true" actions="false" score="true" />
     </container>
     <window bgColor="0xC0C0C0" transparent="true" border="false" />
     <skin file="@orange.xml" />
    </settings>
    <cells rows="2" cols="4" cellWidth="141.0" cellHeight="209.0" border="true" id="primary">
-    <style />
+    <style borderStroke="5.8" markerStroke="2.7">
+     <font family="Arial" size="17" bold="true" />
+     <color border="0xCCCC00" />
+    </style>
     <shaper class="@Rectangular" cols="4" rows="2" />
-    <cell image="banshee-resized.jpg">
-     <style shadow="true" transparent="true" borderStroke="0.7" markerStroke="5.0">
-      <font family="Arial" size="36" bold="true" />
-      <color foreground="0xFFFFFF" background="0x009999" />
+    <cell border="true" image="banshee-resized.jpg">
+     <style shadow="true" transparent="true" borderStroke="5.2" markerStroke="5.0">
+      <font family="Arial" size="36" />
+      <color foreground="0xFFFFFF" background="0x009999" border="0xCCCC00" />
      </style>
     </cell>
-    <cell image="dragaobrancoanciao-resized.jpg">
-     <style shadow="true" transparent="true" borderStroke="0.7" markerStroke="5.0">
+    <cell border="true" image="dragaobrancoanciao-resized.jpg">
+     <style shadow="true" transparent="true" borderStroke="4.9" markerStroke="5.0">
       <font family="Arial" size="36" bold="true" />
-      <color foreground="0xFFFFFF" background="0x009999" />
+      <color foreground="0xFFFFFF" background="0x009999" border="0xCCCC00" />
      </style>
     </cell>
-    <cell image="golendeferro-resized.jpg">
-     <style shadow="true" transparent="true" borderStroke="0.7" markerStroke="5.0">
+    <cell border="true" image="golendeferro-resized.jpg">
+     <style shadow="true" transparent="true" borderStroke="5.0" markerStroke="5.0">
       <font family="Arial" size="36" bold="true" />
-      <color foreground="0xFFFFFF" background="0x009999" />
+      <color foreground="0xFFFFFF" background="0x009999" border="0xCCCC00" />
      </style>
     </cell>
-    <cell image="devoradordementes-resized.jpg">
-     <style shadow="true" transparent="true" borderStroke="0.7" markerStroke="5.0">
+    <cell border="true" image="devoradordementes-resized.jpg">
+     <style shadow="true" transparent="true" borderStroke="5.0" markerStroke="5.0">
       <font family="Arial" size="36" bold="true" />
-      <color foreground="0xFFFFFF" background="0x009999" />
+      <color foreground="0xFFFFFF" background="0x009999" border="0xCCCC00" />
      </style>
     </cell>
-    <cell image="gnoll-resized.jpg">
-     <style shadow="true" transparent="true" borderStroke="0.7" markerStroke="5.0">
+    <cell border="true" image="gnoll-resized.jpg">
+     <style shadow="true" transparent="true" borderStroke="5.2" markerStroke="5.0">
       <font family="Arial" size="36" bold="true" />
-      <color foreground="0xFFFFFF" background="0x009999" />
+      <color foreground="0xFFFFFF" background="0x009999" border="0xCCCC00" />
      </style>
     </cell>
-    <cell image="elfodrow-resized.jpg">
-     <style shadow="true" transparent="true" borderStroke="0.7" markerStroke="5.0">
+    <cell border="true" image="elfodrow-resized.jpg">
+     <style shadow="true" transparent="true" borderStroke="5.1" markerStroke="5.0">
       <font family="Arial" size="36" bold="true" />
-      <color foreground="0xFFFFFF" background="0x009999" />
+      <color foreground="0xFFFFFF" background="0x009999" border="0xCCCC00" />
      </style>
     </cell>
-    <cell image="marilith-resized.jpg">
-     <style shadow="true" transparent="true" borderStroke="0.7" markerStroke="5.0">
+    <cell border="true" image="marilith-resized.jpg">
+     <style shadow="true" transparent="true" borderStroke="4.9" markerStroke="5.0">
       <font family="Arial" size="36" bold="true" />
-      <color foreground="0xFFFFFF" background="0x009999" />
+      <color foreground="0xFFFFFF" background="0x009999" border="0xCCCC00" />
      </style>
     </cell>
     <cell image="tiamat-resized2.jpg">
-     <style shadow="true" transparent="true" borderStroke="0.7" markerStroke="5.0">
+     <style shadow="true" transparent="true" borderStroke="5.0" markerStroke="5.0">
       <font family="Arial" size="36" bold="true" />
-      <color foreground="0xFFFFFF" background="0x009999" />
+      <color foreground="0xFFFFFF" background="0x009999" border="0xCCCC00" />
      </style>
     </cell>
    </cells>
@@ -105,13 +108,13 @@
  </activities>
  <mediaBag>
   <media name="banshee-resized.jpg" file="banshee-resized.jpg" />
+  <media name="cenario-resized.jpg" file="cenario-resized.jpg" />
   <media name="devoradordementes-resized.jpg" file="devoradordementes-resized.jpg" />
   <media name="dragaobrancoanciao-resized.jpg" file="dragaobrancoanciao-resized.jpg" />
   <media name="elfodrow-resized.jpg" file="elfodrow-resized.jpg" />
   <media name="gnoll-resized.jpg" file="gnoll-resized.jpg" />
   <media name="golendeferro-resized.jpg" file="golendeferro-resized.jpg" />
   <media name="marilith-resized.jpg" file="marilith-resized.jpg" />
-  <media name="planodefundo2-resized.jpg" file="planodefundo2-resized.jpg" />
   <media name="tiamat-resized2.jpg" file="tiamat-resized2.jpg" />
  </mediaBag>
 </JClicProject>

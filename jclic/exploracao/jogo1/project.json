@@ -1,9 +1,7 @@
 {
   "title": "EXTRA1",
   "date": "19/11/26",
-  "description": {
-    "pt-BR": ""
-  },
+  "description": {},
   "license": {
     "pt-BR": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
   },
@@ -15,7 +13,7 @@
   "thumbnail": "project-thumb.jpg",
   "activities": 1,
   "mediaFiles": 9,
-  "totalSize": 487587,
+  "totalSize": 487878,
   "files": [
     "anjo_solar-resized.jpg",
     "elfafloresta-resized.jpg",
